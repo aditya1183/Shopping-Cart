@@ -1,0 +1,48 @@
+.header{
+    background-color: #3879a5;
+    color: #fff;
+    margin-bottom: 2rem;
+   
+}
+
+.nav{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1280px;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+.showcartButton{
+    background: transparent;
+    border:  none;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    display: flex;
+    gap: 0.8rem;
+}
+
+
+.carticonandnumber{
+ 
+    position: relative;
+}
+
+.cartnumber{
+    border: 1.5px solid red;
+    background-color: red;
+    
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    font-size: 0.7rem;
+    line-height: 1.4;
+    top: -13px;
+    right: -12px;
+
+}
